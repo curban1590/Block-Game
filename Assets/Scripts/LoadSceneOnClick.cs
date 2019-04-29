@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class LoadSceneOnClick : MonoBehaviour
 {
+    public int sceneIndex;
     //Function to Load Scene Via Index Number 
     public void LoadByIndex(int sceneIndex)
     {
