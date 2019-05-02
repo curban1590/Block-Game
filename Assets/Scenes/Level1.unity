@@ -1781,7 +1781,28 @@ PrefabInstance:
       propertyPath: m_Center.x
       value: 0.8
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 2478852020128483873, guid: 80da5de178355ab488c5584330157a26,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2478852020128483876, guid: 80da5de178355ab488c5584330157a26,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2478852020128483876, guid: 80da5de178355ab488c5584330157a26,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2478852020587020427, guid: 80da5de178355ab488c5584330157a26,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 2478852018953432201, guid: 80da5de178355ab488c5584330157a26, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 80da5de178355ab488c5584330157a26, type: 3}
 --- !u!1001 &6892624566336826533
 PrefabInstance:
