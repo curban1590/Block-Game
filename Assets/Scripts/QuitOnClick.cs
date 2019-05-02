@@ -9,7 +9,7 @@ public class QuitOnClick : MonoBehaviour
 #if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;
 #else
-        Applicatiom.Quit();
+        Application.Quit();
 #endif
     }
 }
